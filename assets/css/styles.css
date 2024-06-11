@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*!
+=========================================================
+* FelipedelosH
+=========================================================
+
+* Copyright: 2023 FelipedelosH
+* Licensed: https://github.com/felipedelosh
+* Coded by https://github.com/felipedelosh/AFE-PORTFOLIO
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+
+/*!
+Father Effects
+This is a most comond effects in page
+*/
+
+
+/*!
+END Father Effects
+*/
+
+
+
+/*!
+=======================================================================
+*/
+
+
+/*!
+Header
+*/
+.navbar_desktop{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+
+.navbar_logo_img img{
+    padding: 0%;
+    margin: 0%;
+    max-height: 60%;
+}
+
+.navbar-custom{
+    background-color: white !important
+}
+
+.navbar-custom .nav-link {
+    color: black !important;
+ }
+/*!
+Header
+*/
+
+
+
+/*!
+FOOTER
+*/
+/*!
+END FOOTER
+*/
+
+
+/*!
+======================================================
+*/
