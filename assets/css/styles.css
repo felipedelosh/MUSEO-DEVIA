@@ -18,8 +18,9 @@
 Father Effects
 This is a most comond effects in page
 */
-
-
+.linkeable_element{
+    cursor: pointer;
+}
 /*!
 END Father Effects
 */
@@ -101,3 +102,25 @@ END FOOTER
 /*!
 ======================================================
 */
+
+.btn-bottom-floating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+    background-color: #006369;
+    border-radius: 20%;
+}
+
+
+.btn-bottom-floating svg{
+    color: white;
+    width: 20px;
+    height: 20px
+}
