@@ -113,8 +113,22 @@ FOOTER
     background-repeat: no-repeat; 
     width: 100%; 
     height: 100vh; 
-    color: white; /* text color */
+    padding-top: 12%;
+    color: white;
 }
+
+.university_logos .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+
+.university_logos .col img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /*!
 END FOOTER
