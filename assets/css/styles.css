@@ -133,13 +133,17 @@ FOOTER
     height: auto;
 }
 
+.hr-footer{
+    padding: 0%;
+}
+
 .copyright{
     display: flex;
+    padding-bottom: 6%;
     flex-direction: column;
     justify-content: flex-end; /* Empuja el contenido hacia la parte baja del contenedor */
     align-items: center; /* Centra horizontalmente el contenido */
     height: 20vh; 
-    border: 1px solid #000;
 }
 /*!
 END FOOTER
