@@ -14,6 +14,21 @@ $( ".btn-external-click" ).on( "click", function() {
 });
 
 
+//GOT TO TOP
+$( ".btn-bottom-floating" ).on( "click", function() {
+    document.body.scrollTop = 0; // Safari
+    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, Opera
+});
+
+
+/**
+ * Scroll
+ */
+$(window).scroll(function() {
+    hideOfShowBtnFloating();
+});
+
+
 
 /**
  * hover
@@ -43,6 +58,15 @@ function openLocalTab(url){
 
 function openHTML(url){
     window.open(url, "_self");
+}
+
+
+function hideOfShowBtnFloating(){
+    if ($(window).scrollTop() <= 100) {
+        $(".btn-bottom-floating").css("display", "none");
+    } else {
+        $(".btn-bottom-floating").css("display", "flex");
+    }
 }
 
 /**
@@ -96,4 +120,7 @@ function _responsiveRefresh(){
     }
 }
 
+
+hideOfShowBtnFloating();
 //_responsiveRefresh();
+
