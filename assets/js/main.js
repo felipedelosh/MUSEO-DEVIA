@@ -33,10 +33,23 @@ $(window).scroll(function() {
 /**
  * hover
  */
-$( ".class_element" ).hover(function() {
-    //If element hover
+$( ".main-society-link-malambo" ).hover(function() {
+    $( ".main-society-link-malambo" ).css("color", "#9ed49a");
 }).mouseleave(function() {  
-    //If element not hover
+    $( ".main-society-link-malambo" ).css("color", "#006369");
+});
+
+$( ".main-society-link-tairona" ).hover(function() {
+    $( ".main-society-link-tairona" ).css("color", "#9ed49a");
+}).mouseleave(function() {  
+    $( ".main-society-link-tairona" ).css("color", "#006369");
+});
+
+
+$( ".main-society-link-malalameque" ).hover(function() {
+    $( ".main-society-link-malalameque" ).css("color", "#9ed49a");
+}).mouseleave(function() {  
+    $( ".main-society-link-malalameque" ).css("color", "#006369");
 });
 
 
