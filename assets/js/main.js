@@ -45,13 +45,23 @@ $( ".main-society-link-tairona" ).hover(function() {
     $( ".main-society-link-tairona" ).css("color", "#006369");
 });
 
-
 $( ".main-society-link-malalameque" ).hover(function() {
     $( ".main-society-link-malalameque" ).css("color", "#9ed49a");
 }).mouseleave(function() {  
     $( ".main-society-link-malalameque" ).css("color", "#006369");
 });
 
+$( ".container-ico-contact-direction" ).hover(function() {
+    $( ".container-ico-contact-direction" ).css("background-color", "#006369");
+}).mouseleave(function() {  
+    $( ".container-ico-contact-direction" ).css("background-color", "#eaf6e9");
+});
+
+$( ".container-ico-contact-email" ).hover(function() {
+    $( ".container-ico-contact-email" ).css("background-color", "#006369");
+}).mouseleave(function() {  
+    $( ".container-ico-contact-email" ).css("background-color", "#eaf6e9");
+});
 
 
 /**

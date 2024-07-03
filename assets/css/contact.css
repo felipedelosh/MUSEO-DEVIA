@@ -1,0 +1,45 @@
+.contact{
+    padding-top:10%;
+    background-color: whitesmoke;
+}
+
+.goup-contact-info{
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.class-card-contact{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+}
+
+.container-ico-contact-direction{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #eaf6e9;
+}
+
+.container-ico-contact-email{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #eaf6e9;
+}
+
+.container-ico-contact-direction svg{
+    color: #0a696e;
+    width: 20px; 
+    height: 20px;
+}
+
+.container-ico-contact-email svg{
+    color: #0a696e;
+    width: 20px;
+    height: 20px;
+}
