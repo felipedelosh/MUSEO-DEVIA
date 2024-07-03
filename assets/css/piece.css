@@ -1,0 +1,30 @@
+.piece-description{
+    padding-top:10%;
+    padding-bottom: 2%;
+    background-color: whitesmoke;
+}
+
+.accordion {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: white;
+    border-top: none;
+}
+
+/* Estilo específico para mantener abierta la sección "Historia" */
+.accordion.open .accordion-content {
+    display: block;
+}

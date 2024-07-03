@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>MUSEO-DEVIA-CONTACTO</title>
+    <title>MUSEO-DEVIA-PIECE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ejemplo plantilla HTML" />
     <meta name="keywords" content="3D, museo, online" />
@@ -10,8 +10,9 @@
     <meta name="copyright" content="FelipedelosH" />
     <meta name="robots" content="/" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/piece.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendors/aos/aos.css" />
     <link rel="icon" type="image/x-icon" href="assets\img\ico\ico.png" />
   </head>
   <body>
@@ -52,10 +53,10 @@
                         class="dropdown-menu"
                         aria-labelledby="navbarDropdownMenuLink"
                       >
-                        <li><a class="dropdown-item" href="piece-base-blank.html">Malambo</a></li>
-                        <li><a class="dropdown-item" href="piece-base-blank.html">Tairona</a></li>
+                        <li><a class="dropdown-item" href="#">Malambo</a></li>
+                        <li><a class="dropdown-item" href="#">Tairona</a></li>
                         <li>
-                          <a class="dropdown-item" href="piece-base-blank.html">Tamalameque</a>
+                          <a class="dropdown-item" href="#">Tamalameque</a>
                         </li>
                       </ul>
                     </li>
@@ -72,52 +73,59 @@
       </div>
     </div>
     <!--END Header Section-->
-    <div class="contact">
-        <div class="container">
-            <div class="row">
-                <p class="h1 text-center">CONTACTO</p>
+    <!--PIECE DESCRIPTION-->
+        <div class="piece-description">
+            <div class="container">
+                <div class="row" data-aos="fade-up">
+                    <p class="h3">DESCRIPCIÓN PIEZA</p>
+                </div>
                 <div class="row">
-                  <div class="col-lg-4 goup-contact-info">
-                    <div class="class-card-contact">
-                      <div class="row">
-                        <div class="col-2 container-ico-contact-direction">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                          </svg>
-                        </div>
-                        <div class="col-10">
-                          <div class="row goup-contact-title">
-                            <p class="h5">Dirección:</p>
-                          </div>
-                          <div class="row goup-contact-data">
-                            <p>Santa Marta, Colombia.</p>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="col-6 container-image-piece" data-aos="fade-right">
+                        <img src="assets/img/gallery/example-piece.png" alt="example-piece">
                     </div>
-                    <div class="class-card-contact">
-                      <div class="row">
-                        <div class="col-2 container-ico-contact-email">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
-                          </svg>
+                    <div class="col-6">
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Modelado 3D</div>
                         </div>
-                        <div class="col-10">
-                          <div class="row goup-contact-title">
-                            <p class="h5">Email:</p>
-                          </div>
-                          <div class="row goup-contact-data">
-                            <p>fundacionpatrimoniomixto@gmail.com</p>
-                          </div>
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Galería</div>
                         </div>
-                      </div>
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Descripción de las piezas</div>
+                        </div>
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Mapa</div>
+                            <div class="accordion-content">
+                                <img class="img-fluid" src="assets/img/gallery/example-map.jpg" alt="example map">
+                            </div>
+                        </div>
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Linea de tiempo</div>
+                            <div class="accordion-content">
+                                <img class="img-fluid" src="assets/img/gallery/example-time-line.jpeg" alt="example map">
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
+                <div class="row">
+                    <div class="accordion open" data-aos="fade-up">
+                        <div class="accordion-header">Historia</div>
+                        <div class="accordion-content">
+                            <p>
+                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit… No hay nadie que ame el dolor en sí mismo, que lo busque y lo quiera tener, simplemente porque es dolor…
+                            </p>
+                            <p>
+                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit… No hay nadie que ame el dolor en sí mismo, que lo busque y lo quiera tener, simplemente porque es dolor…
+                            </p>
+                            <p>
+                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit… No hay nadie que ame el dolor en sí mismo, que lo busque y lo quiera tener, simplemente porque es dolor…
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    <!--END PIECE DESCRIPTION-->
     <!--FOOTER-->
     <div class="footer">
       <div class="container">
@@ -171,6 +179,8 @@
     <script src="assets\js\bootstrap.js"></script>
     <script src="assets\vendors\jquery\jquery.js"></script>
     <script src="assets\js\cookie.js"></script>
+    <script src="assets\vendors\aos\aos.js"></script>
+    <script src="assets\js\aos-init-acordion.js"></script>
     <!--PAGE MAIN Js File-->
     <script src="assets\js\main.js"></script>
   </body>
