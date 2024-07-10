@@ -8,6 +8,15 @@ $( ".home-logo" ).on( "click", function() {
     window.location.href = 'index.html';
 });
 
+$( ".go-arq-list" ).on( "click", function() {
+    window.location.href = 'arq-list.html';
+});
+
+$( ".go-etn-list" ).on( "click", function() {
+    window.location.href = 'etn-list.html';
+});
+
+
 //EXTERNAL LINKS
 $( ".btn-external-click" ).on( "click", function() {
     //new tab

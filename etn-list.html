@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>MUSEO-DEVIA-PIECE</title>
+    <title>Etnográfico</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ejemplo plantilla HTML" />
     <meta name="keywords" content="3D, museo, online" />
@@ -10,9 +10,8 @@
     <meta name="copyright" content="FelipedelosH" />
     <meta name="robots" content="/" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/piece.css" />
+    <link rel="stylesheet" href="assets/css/list.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/vendors/aos/aos.css" />
     <link rel="icon" type="image/x-icon" href="assets\img\ico\ico.png" />
   </head>
   <body>
@@ -23,7 +22,7 @@
           <div class="row">
             <div class="col-4 navbar_logo_img">
               <img
-                class="linkeable_element  home-logo"
+                class="linkeable_element home-logo"
                 src="assets/img/logo/logo.png"
                 alt="museo devia logo"
               />
@@ -52,9 +51,9 @@
                       <ul
                         class="dropdown-menu"
                         aria-labelledby="navbarDropdownMenuLink"
-                        >
-                          <li><a class="dropdown-item" href="arq-list.html">Arqueológico</a></li>
-                          <li><a class="dropdown-item" href="etn-list.html">Etnográfico</a></li>
+                      >
+                        <li><a class="dropdown-item" href="arq-list.html">Arqueológico</a></li>
+                        <li><a class="dropdown-item" href="etn-list.html">Etnográfico</a></li>
                       </ul>
                     </li>
                     <li class="nav-item">
@@ -70,44 +69,23 @@
       </div>
     </div>
     <!--END Header Section-->
-    <!--PIECE DESCRIPTION-->
-        <div class="piece-description">
-            <div class="container">
-                <div class="row" data-aos="fade-up">
-                    <p class="h3">DESCRIPCIÓN PIEZA</p>
-                </div>
-                <div class="row">
-                    <div class="col-6 container-image-piece" data-aos="fade-right">
-                        <img src="assets/img/gallery/example-piece.png" alt="example-piece">
-                    </div>
-                    <div class="col-6">
-                        <div class="accordion" data-aos="fade-up">
-                            <div class="accordion-header">Modelado 3D</div>
-                        </div>
-                        <div class="accordion" data-aos="fade-up">
-                            <div class="accordion-header">Descripción de las piezas</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="accordion open" data-aos="fade-up">
-                        <div class="accordion-header">Historia</div>
-                        <div class="accordion-content">
-                            <p>
-                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit… No hay nadie que ame el dolor en sí mismo, que lo busque y lo quiera tener, simplemente porque es dolor…
-                            </p>
-                            <p>
-                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit… No hay nadie que ame el dolor en sí mismo, que lo busque y lo quiera tener, simplemente porque es dolor…
-                            </p>
-                            <p>
-                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit… No hay nadie que ame el dolor en sí mismo, que lo busque y lo quiera tener, simplemente porque es dolor…
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!--LIST-->
+    <div class="list-arq">
+      <div class="container">
+        <div class="row">
+          <p class="h3 text-center">Piezas Etnográficas</p>
         </div>
-    <!--END PIECE DESCRIPTION-->
+        <br>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+          <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+        </div>
+      </div>
+    </div>
+    <!--END LIST-->
     <!--FOOTER-->
     <div class="footer">
       <div class="container">
@@ -161,8 +139,6 @@
     <script src="assets\js\bootstrap.js"></script>
     <script src="assets\vendors\jquery\jquery.js"></script>
     <script src="assets\js\cookie.js"></script>
-    <script src="assets\vendors\aos\aos.js"></script>
-    <script src="assets\js\aos-init-acordion.js"></script>
     <!--PAGE MAIN Js File-->
     <script src="assets\js\main.js"></script>
   </body>
