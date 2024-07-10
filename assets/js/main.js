@@ -4,8 +4,8 @@
  */
 
 //INTERNAL LINKS
-$( ".btn-to-click" ).on( "click", function() {
-    //action
+$( ".home-logo" ).on( "click", function() {
+    window.location.href = 'index.html';
 });
 
 //EXTERNAL LINKS
