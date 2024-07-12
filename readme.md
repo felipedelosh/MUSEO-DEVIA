@@ -1,33 +1,35 @@
 <h1 align="center"> FelipedelosH </h1>
 <br>
-<h4>Blank HTML</h4>
+<h4>MUSEO-A&E-UCALDAS</h4>
 
 ![Banner](docs/banner.png)
-:construction: Status of project :construction:
+:construction: IN CONSTRUCTION :construction:
 <br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Welcome to the UCaldas Ethnographic and Archaeological Museum! 🏛️ In this project, we’ve created an interactive website that immerses you in the cultural and archaeological richness of our region.
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Function 1`: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.<br>
-- `Function 2`: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.<br>
-- `Function 3`: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.<br>
-- `Function 3a`: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.<br>
-- `Function 4`: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.<br>
+- `Function 1`: Explore Our Heritage: Discover unique artifacts that connect us to past societies. From ceramics to textiles, each object tells a story.<br>
+- `Function 2`: Responsive Design: Our page adapts seamlessly to any device, whether you’re exploring from your computer or your mobile phone.<br>
+- `Function 3`: Stunning Animations: We’ve used AOS (Animate On Scroll) to breathe life into elements as you scroll. It’s like a stylish time-travel experience!<br>
 
 
 ## :play_or_pause_button:How to execute a project
 
-Double click
+Double click in index.html
 
 ## :hammer_and_wrench:Tecnologías.
 
-- code programing
-- framework
+- HTML
+- JavaScript
+- Bootstrap
+- CSS
+- AOS
+- 3D 
 
 ## :warning:Advertencia
 
-- limitations.
+- all content is hardcoded.
 
 ## Autor
 
