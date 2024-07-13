@@ -24,7 +24,12 @@
     border-top: none;
 }
 
-/* Estilo específico para mantener abierta la sección "Historia" */
+/* Always open history first */
 .accordion.open .accordion-content {
     display: block;
+}
+
+.large-iframe {
+    width: 100%; 
+    height: 400px; 
 }
