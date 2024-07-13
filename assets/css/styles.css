@@ -109,6 +109,11 @@ END CONTENT
     align-items: center;
 }
 
+.large-iframe {
+    width: 100%; 
+    height: 90%; 
+}
+
 /*!
 END CONTENT
 */
