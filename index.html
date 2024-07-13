@@ -11,6 +11,8 @@
     <meta name="robots" content="/" />
     <link rel="stylesheet" href="assets\css\styles.css" />
     <link rel="stylesheet" href="assets\css\bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendors/aos/aos.css" />
+    <script src="assets\vendors\aos\aos.js"></script>
     <link rel="icon" type="image/x-icon" href="assets\img\ico\ico.png" />
   </head>
   <body>
@@ -70,11 +72,16 @@
     <!--END Header Section-->
     <!--CONTENT HERO-->
     <div class="hero_container">
+      <script>
+        AOS.init();
+      </script>
       <div class="container">
         <img
           class="img-fluid img_page_hero"
           src="assets/img/logo/main_logo.png"
           alt="museo devia logo hero"
+          data-aos="zoom-in"
+          data-aos-delay="300"
         />
       </div>
     </div>
@@ -83,22 +90,22 @@
     <div class="artefacts">
       <div class="container">
         <div class="row">
-          <p class="h2 text-center">MUSEO ETNOGRÁFICO Y ARQUELÓGICO UCALDAS</p>
+          <p class="h2 text-center" data-aos="fade-up" data-aos-delay="200">MUSEO ETNOGRÁFICO Y ARQUELÓGICO UCALDAS</p>
         </div>
         <div class="row">
-          <p class="h6 text-muted text-center">
+          <p class="h6 text-muted text-center" data-aos="fade-up" data-aos-delay="200">
             Te damos la bienvenida a un espacio donde podrás apreciar el patrimonio arqueológico y etnográfico desde una experiencia en el mundo digital. Presentamos piezas que nos conectan con las sociedades del pasado que habitaron el norte de Colombia.
           </p>
         </div>
         <div class="row">
           <div class="col card-container">
             <div class="card border-0" style="width: 22rem">
-              <div class="sketchfab-embed-wrapper">
+              <div class="sketchfab-embed-wrapper" data-aos="fade-up" data-aos-delay="200">
                 <iframe class="large-iframe" title="Model 1" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/f2059a3b120949f4bdebcb5923e90d43/embed"></iframe>
               </div>
               <div class="card-body">
-                <h5 class="card-title text-center linkeable_element main-society-link-malambo go-arq-list">Arqueológico</h5>
-                <p class="card-text  text-center">
+                <h5 class="card-title text-center linkeable_element main-society-link-malambo go-arq-list" data-aos="fade-up" data-aos-delay="200">Arqueológico</h5>
+                <p class="card-text text-center" data-aos="fade-up" data-aos-delay="200">
                   Exploramos los vestigios arqueológicos que nos revelan los secretos de las antiguas culturas. Desde cerámica hasta herramientas de piedra, estas piezas nos transportan al pasado y nos permiten comprender cómo vivían nuestros ancestros.
                 </p>
               </div>
@@ -106,12 +113,12 @@
           </div>
           <div class="col card-container">
             <div class="card border-0" style="width: 22rem">
-              <div class="sketchfab-embed-wrapper">
+              <div class="sketchfab-embed-wrapper" data-aos="fade-up" data-aos-delay="200">
                 <iframe class="large-iframe" title="Model 4" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/8b6c1e1908de49df9ef14872f32b144f/embed"></iframe>
               </div>
               <div class="card-body">
-                <h5 class="card-title text-center linkeable_element main-society-link-tairona go-etn-list">Etnográfico</h5>
-                <p class="card-text  text-center">
+                <h5 class="card-title text-center linkeable_element main-society-link-tairona go-etn-list" data-aos="fade-up" data-aos-delay="200">Etnográfico</h5>
+                <p class="card-text  text-center" data-aos="fade-up" data-aos-delay="200">
                   A través de objetos etnográficos, exploramos las tradiciones, creencias y modos de vida de las comunidades que han habitado estas tierras. Cada tejido, cada amuleto, nos cuenta una historia única y nos conecta con la riqueza cultural de nuestro pasado.
                 </p>
               </div>
