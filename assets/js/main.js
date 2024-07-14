@@ -5,7 +5,7 @@
 
 //INTERNAL LINKS
 $( ".home-logo" ).on( "click", function() {
-    window.location.href = 'index.html';
+    window.open("https://felipedelosh.github.io/MUSEO-DEVIA/", "_self");
 });
 
 $( ".go-arq-list" ).on( "click", function() {
