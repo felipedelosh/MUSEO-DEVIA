@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Etnográfico</title>
+    <title>MUSEO-A&E-UCALDAS-PIECE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ejemplo plantilla HTML" />
     <meta name="keywords" content="3D, museo, online" />
@@ -10,8 +10,9 @@
     <meta name="copyright" content="FelipedelosH" />
     <meta name="robots" content="/" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/list.css" />
+    <link rel="stylesheet" href="assets/css/piece.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendors/aos/aos.css" />
     <link rel="icon" type="image/x-icon" href="assets\img\ico\ico.png" />
   </head>
   <body>
@@ -22,7 +23,7 @@
           <div class="row">
             <div class="col-4 navbar_logo_img">
               <img
-                class="linkeable_element home-logo"
+                class="linkeable_element  home-logo"
                 src="assets/img/logo/logo.png"
                 alt="museo devia logo"
               />
@@ -51,9 +52,9 @@
                       <ul
                         class="dropdown-menu"
                         aria-labelledby="navbarDropdownMenuLink"
-                      >
-                        <li><a class="dropdown-item" href="arq-list.html">Arqueológico</a></li>
-                        <li><a class="dropdown-item" href="etn-list.html">Etnográfico</a></li>
+                        >
+                          <li><a class="dropdown-item" href="arq-list.html">Arqueológico</a></li>
+                          <li><a class="dropdown-item" href="etn-list.html">Etnográfico</a></li>
                       </ul>
                     </li>
                     <li class="nav-item">
@@ -69,21 +70,47 @@
       </div>
     </div>
     <!--END Header Section-->
-    <!--LIST-->
-    <div class="list-arq">
-      <div class="container">
-        <div class="row">
-          <p class="h3 text-center">Piezas Etnográficas</p>
+    <!--PIECE DESCRIPTION-->
+        <div class="piece-description">
+            <div class="container">
+                <div class="row" data-aos="fade-up">
+                    <p class="h3">BANCO PEQUEÑO</p>
+                </div>
+                <div class="row">
+                    <div class="col-6 container-image-piece" data-aos="fade-right">
+                        <img src="assets/img/gallery/i.png" alt="example-piece">
+                    </div>
+                    <div class="col-6">
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Modelado 3D</div>
+                            <div class="accordion-content">
+                              <div class="sketchfab-embed-wrapper">
+                                <iframe class="large-iframe" title="Model 9" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/642f74b3d27e4bc395312f1467f6764b/embed"></iframe>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Descripción de la pieza</div>
+                            <div class="accordion-content">
+                              <p>Cl-001-045-05-05-E086</p>
+                              <p>Banco pequeño cóncavo de una sola pieza, elabora de Madera Juansoco y es tallado, hay diferentes tamaños , los bancos son de una sola pieza, no tienen añadiduras, le dan forma con el machete. El asiento se tiñe de rojo; este color se obtiene de la corteza de un árbol, luego se le hace un diseño. (Londoño, 2023)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="accordion open" data-aos="fade-up">
+                        <div class="accordion-header">Característica de la pieza</div>
+                        <div class="accordion-content">
+                            <p>
+                              Este objeto    pertenece a la Región Amazónica Departamento del Vaupés. En donde se sienta en líder de ceremonias rituales para impartir conocimiento Hace referencia a la colección etnográfica que perteneció al Antropólogo Roberto Restrepo(Londoño, 2023)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
-        <div class="list-group">
-          <a href="piece-d.html" class="list-group-item list-group-item-action">Aerófono CL-001-045-05-04-E139</a>
-          <a href="piece-e.html" class="list-group-item list-group-item-action">Aerófono CL-001-045-05-04-E140</a>
-          <a href="piece-i.html" class="list-group-item list-group-item-action">Banco pequeño CL-001-045-05-05-E086</a>
-        </div>
-      </div>
-    </div>
-    <!--END LIST-->
+    <!--END PIECE DESCRIPTION-->
     <!--FOOTER-->
     <div class="footer">
       <div class="container">
@@ -137,6 +164,8 @@
     <script src="assets\js\bootstrap.js"></script>
     <script src="assets\vendors\jquery\jquery.js"></script>
     <script src="assets\js\cookie.js"></script>
+    <script src="assets\vendors\aos\aos.js"></script>
+    <script src="assets\js\aos-init-acordion.js"></script>
     <!--PAGE MAIN Js File-->
     <script src="assets\js\main.js"></script>
   </body>
