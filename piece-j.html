@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Arqueológico</title>
+    <title>MUSEO-A&E-UCALDAS-PIECE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ejemplo plantilla HTML" />
     <meta name="keywords" content="3D, museo, online" />
@@ -10,8 +10,9 @@
     <meta name="copyright" content="FelipedelosH" />
     <meta name="robots" content="/" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/list.css" />
+    <link rel="stylesheet" href="assets/css/piece.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendors/aos/aos.css" />
     <link rel="icon" type="image/x-icon" href="assets\img\ico\ico.png" />
   </head>
   <body>
@@ -22,7 +23,7 @@
           <div class="row">
             <div class="col-4 navbar_logo_img">
               <img
-                class="linkeable_element home-logo"
+                class="linkeable_element  home-logo"
                 src="assets/img/logo/logo.png"
                 alt="museo devia logo"
               />
@@ -51,9 +52,9 @@
                       <ul
                         class="dropdown-menu"
                         aria-labelledby="navbarDropdownMenuLink"
-                      >
-                        <li><a class="dropdown-item" href="arq-list.html">Arqueológico</a></li>
-                        <li><a class="dropdown-item" href="etn-list.html">Etnográfico</a></li>
+                        >
+                          <li><a class="dropdown-item" href="arq-list.html">Arqueológico</a></li>
+                          <li><a class="dropdown-item" href="etn-list.html">Etnográfico</a></li>
                       </ul>
                     </li>
                     <li class="nav-item">
@@ -69,25 +70,51 @@
       </div>
     </div>
     <!--END Header Section-->
-    <!--LIST-->
-    <div class="list-arq">
-      <div class="container">
-        <div class="row">
-          <p class="h3 text-center">Piezas Arqueológicas</p>
+    <!--PIECE DESCRIPTION-->
+        <div class="piece-description">
+            <div class="container">
+                <div class="row" data-aos="fade-up">
+                    <p class="h3">PUNTA DE PROYECTIL AMARILLA</p>
+                </div>
+                <div class="row">
+                    <div class="col-6 container-image-piece" data-aos="fade-right">
+                        <img src="assets/img/gallery/j.png" alt="example-piece">
+                    </div>
+                    <div class="col-6">
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Modelado 3D</div>
+                            <div class="accordion-content">
+                              <div class="sketchfab-embed-wrapper">
+                                <iframe class="large-iframe" title="Model 10" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/e76b079279164e85bf3a9f69a084cca8/embed"></iframe>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion" data-aos="fade-up">
+                            <div class="accordion-header">Descripción de la pieza</div>
+                            <div class="accordion-content">
+                              <p>CL-001-045–02-3-439</p>
+                              <p>Es una punta de proyectil amarilla, elaboradas a partir de chert, tallado a con la técnica de reducción bifacial. Es una punta triangular, delgada en la sección transversal, ancha en la parte de los hombros con aletas rectas, además presentan pedúnculo largo y estrecho con retoques por presión para facilitar el enmanga-miento (López C. 2008).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="accordion open" data-aos="fade-up">
+                        <div class="accordion-header">Característica de la pieza</div>
+                        <div class="accordion-content">
+                            <p>
+                              La punta tiene 13.31 cm de largo y 3,3 cm de ancho y cuenta con un espesor de 0,8 cm, tiene hombro, con muescas en las esquinas que le dan forma de punta, tiende a tener forma de triángulo isósceles, y terminada en punta con base cóncava.  Encontrada en Barrancabermeja  Santander -Bogotá, donada el 28 de marzo del 2012
+                              Carlos Alberto  Acosta.
+                            </p>
+                            <p>
+                              Según las investigaciones estas puntas pudieron ser utilizadas para la subsistencia económica de los primeros pobladores para la región del Magdalena Medio que no sólo se limitaba a la caza de grandes mamíferos,  sino también al procesamiento de los peces y aves, la pesca y la caza de mamíferos acuáticos, actividades que se relacionan más con los ambientes ribereños de las tierras bajas de esta región (Aceituno & Rojas-Mora, 2012). 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
-        <div class="list-group">
-          <a href="piece-g.html" class="list-group-item list-group-item-action">volante de huso</a>
-          <a href="piece-f.html" class="list-group-item list-group-item-action">Cántaro zoomorfo</a>
-          <a href="piece-h.html" class="list-group-item list-group-item-action">Copa de boca romboidal</a>
-          <a href="piece-c.html" class="list-group-item list-group-item-action">Cuenco con boca romboidal</a>
-          <a href="piece-a.html" class="list-group-item list-group-item-action">Copa con boca circular</a>
-          <a href="piece-b.html" class="list-group-item list-group-item-action">Cuenco con forma semicircular</a>
-          <a href="piece-j.html" class="list-group-item list-group-item-action">Punta de proyectil amarilla</a>
-        </div>
-      </div>
-    </div>
-    <!--END LIST-->
+    <!--END PIECE DESCRIPTION-->
     <!--FOOTER-->
     <div class="footer">
       <div class="container">
@@ -141,6 +168,8 @@
     <script src="assets\js\bootstrap.js"></script>
     <script src="assets\vendors\jquery\jquery.js"></script>
     <script src="assets\js\cookie.js"></script>
+    <script src="assets\vendors\aos\aos.js"></script>
+    <script src="assets\js\aos-init-acordion.js"></script>
     <!--PAGE MAIN Js File-->
     <script src="assets\js\main.js"></script>
   </body>
